@@ -53,7 +53,7 @@
 ## 📫 Connect With Me
 
 * 📧 Email: [2505gaurav.asf@gmail.com](mailto:2505gaurav.asf@gmail.com)
-* 💼 LinkedIn: (add your link)
+* 💼 LinkedIn: https://www.linkedin.com/in/gaurav-6bba27285/
 
 ---
 

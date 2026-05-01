@@ -61,7 +61,12 @@
 
 I build real-world AI projects 🚀
 
-<!---
+## 🏆 Badges
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/ML-Projects-green)
+![AI](https://img.shields.io/badge/AI-Engineer-orange)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen)<!---
 Gauravpy-ctrl/Gauravpy-ctrl is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->

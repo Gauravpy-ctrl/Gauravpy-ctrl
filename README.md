@@ -73,3 +73,6 @@ You can click the Preview link to take a look at your changes.
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
+
+
+![snake gif](https://github.com/Gauravpy-ctrl/Gauravpy-ctrl/blob/output/github-contribution-grid-snake.svg)

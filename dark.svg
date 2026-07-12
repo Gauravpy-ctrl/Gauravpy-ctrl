@@ -1,0 +1,607 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Gaurav developer profile banner">
+  <title>Gaurav - Developer Profile</title>
+  
+  <defs>
+    <clipPath id="cardClip-dark">
+      <rect x="0" y="0" width="1180" height="610" rx="28" ry="28"/>
+    </clipPath>
+
+    <linearGradient id="accentGrad-dark" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1180" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="asciiGrad-dark" gradientUnits="userSpaceOnUse"
+                    x1="-200" y1="0" x2="648" y2="610">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                         values="0 0; -140 60; 0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="borderShimmer-dark" gradientUnits="userSpaceOnUse"
+                    x1="-300" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                         values="0 0; 1480 0; 0 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="blobBlue-dark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobPurple-dark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobEmerald-dark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scanGrad-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panelHi-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softGlow-dark" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b1"/>
+      <feMerge>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="strongGlow-dark" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="b1"/>
+      <feMerge>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pillGlow-dark" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b1"/>
+      <feMerge>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="noiseFilter-dark">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#cardClip-dark)">
+    
+    <rect x="0" y="0" width="1180" height="610" fill="#030712"/>
+    <circle cx="120" cy="120" r="260" fill="url(#blobBlue-dark)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 30 40; -10 10; 0 0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="408" cy="510" r="220" fill="url(#blobPurple-dark)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -25 -30; 15 15; 0 0" dur="26s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="90" r="300" fill="url(#blobEmerald-dark)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -35 25; 10 -15; 0 0" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="960" cy="530" r="240" fill="url(#blobBlue-dark)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 20 -20; -15 10; 0 0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="1180" height="610" filter="url(#noiseFilter-dark)" opacity="0.05"/>
+    
+    <rect x="0" y="-80" width="1180" height="80" fill="url(#scanGrad-dark)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 690; 0 0" dur="10s" repeatCount="indefinite" calcMode="linear"/>
+    </rect>
+    <circle cx="683" cy="174" r="1.6" fill="#7C3AED" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -27.1; 0 0" dur="5.3s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.3s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="138" cy="539" r="1.3" fill="#22D3EE" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -20.7; 0 0" dur="5.5s" begin="1.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.5s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1148" cy="454" r="1.1" fill="#10B981" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -29.2; 0 0" dur="8.4s" begin="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="8.4s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="146" cy="426" r="1.1" fill="#7C3AED" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -22.9; 0 0" dur="6.3s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="6.3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="878" cy="167" r="1.8" fill="#22D3EE" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -23.0; 0 0" dur="8.4s" begin="2.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="8.4s" begin="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="231" cy="212" r="1.5" fill="#10B981" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -15.0; 0 0" dur="8.3s" begin="0.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="8.3s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="441" cy="528" r="2.0" fill="#7C3AED" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -19.0; 0 0" dur="7.6s" begin="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="7.6s" begin="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="948" cy="390" r="1.4" fill="#22D3EE" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -25.2; 0 0" dur="9.8s" begin="1.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="9.8s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="634" cy="557" r="1.7" fill="#10B981" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -21.2; 0 0" dur="7.1s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="7.1s" begin="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="169" cy="140" r="1.7" fill="#7C3AED" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -19.5; 0 0" dur="6.0s" begin="3.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="6.0s" begin="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="883" cy="60" r="2.3" fill="#22D3EE" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -22.9; 0 0" dur="5.5s" begin="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.5s" begin="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="662" cy="368" r="2.0" fill="#10B981" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -23.3; 0 0" dur="8.6s" begin="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="8.6s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="211" cy="296" r="1.7" fill="#7C3AED" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -15.0; 0 0" dur="9.0s" begin="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="9.0s" begin="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="932" cy="311" r="2.0" fill="#22D3EE" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -19.6; 0 0" dur="10.3s" begin="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="10.3s" begin="3.8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <rect x="0" y="0" width="448" height="610" fill="#0F172A" opacity="0.62"/>
+    <rect x="0" y="0" width="448" height="120" fill="url(#panelHi-dark)"/>
+    <line x1="448" y1="20" x2="448" y2="590" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+
+    <circle cx="36" cy="40" r="5" fill="#FF5F56" opacity="0.85"/>
+    <circle cx="56" cy="40" r="5" fill="#FFBD2E" opacity="0.85"/>
+    <circle cx="76" cy="40" r="5" fill="#27C93F" opacity="0.85"/>
+    <text x="96" y="44" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="12" fill="#94A3B8">portrait.ascii</text>
+    <line x1="28" y1="62" x2="420" y2="62" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+    
+    <g transform="translate(0,0)" filter="url(#softGlow-dark)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -5; 0 0" dur="6s" repeatCount="indefinite" additive="sum"/>
+      <g><text x="28" y="100.00" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="115.94" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.73s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="131.89" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.76s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="147.83" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="163.78" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="179.72" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.86s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="195.67" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.89s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="211.61" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.5s" fill="freeze"/>                                                                                    </text><text x="28" y="227.56" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.5s" fill="freeze"/>                                      ..-.==-===:..::.                              </text><text x="28" y="243.50" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.5s" fill="freeze"/>                                 .:..::.:==..-:-: ...:.                             </text><text x="28" y="259.44" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.02s" dur="0.5s" fill="freeze"/>                              --==----+-=--======:-=::::: .                         </text><text x="28" y="275.39" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.5s" fill="freeze"/>                           -.:--==  .-==+#+==-====-=..-:+=-=                        </text><text x="28" y="291.33" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.08s" dur="0.5s" fill="freeze"/>                          :. ..::.: .  ..:.  =.--*:.:: -:-:=:                       </text><text x="28" y="307.28" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.12s" dur="0.5s" fill="freeze"/>                        ..: ...      .          .::-. :.:== =                       </text><text x="28" y="323.22" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.5s" fill="freeze"/>                        :            .::.   . :.:--:=::.:-:- -                      </text><text x="28" y="339.17" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.18s" dur="0.5s" fill="freeze"/>                        :      .......:-=+---= .*+==.---..: :.                      </text><text x="28" y="355.11" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.21s" dur="0.5s" fill="freeze"/>                         .    :         .:=+*=-=-@%=--:   :..                       </text><text x="28" y="371.06" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.24s" dur="0.5s" fill="freeze"/>                          :   ..             .      .+#   -                         </text><text x="28" y="387.00" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.28s" dur="0.5s" fill="freeze"/>                           = .. .=::. ::..  .:--:::: .-  -:                         </text><text x="28" y="402.94" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.31s" dur="0.5s" fill="freeze"/>                           - : ..:-+#=:.   . ..:==-:=-:::-                          </text><text x="28" y="418.89" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.34s" dur="0.5s" fill="freeze"/>                         -=-:-...=++#%*= .:: :+%%*@#- + =                           </text><text x="28" y="434.83" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.37s" dur="0.5s" fill="freeze"/>                         + .== .   ... .  ..  . -=: ..===*+                         </text><text x="28" y="450.78" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.40s" dur="0.5s" fill="freeze"/>                         +:..:       .    ..   .  .  .-=. *                         </text><text x="28" y="466.72" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.44s" dur="0.5s" fill="freeze"/>                          - ::        .-+-:===.       .  ==                         </text><text x="28" y="482.67" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.47s" dur="0.5s" fill="freeze"/>                        .. .:  .  .     .. .-...:.   .:--.                          </text><text x="28" y="498.61" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.5s" fill="freeze"/>                ..         : -    . ..:::--:-::- -:   ==                            </text><text x="28" y="514.56" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.53s" dur="0.5s" fill="freeze"/>                             =  .  ..::=-+==*=-=... .  .                            </text><text x="28" y="530.50" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.56s" dur="0.5s" fill="freeze"/>                         .    %  .  .. .        .  . -                              </text><text x="28" y="546.44" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.60s" dur="0.5s" fill="freeze"/>                     .: .     =           .       . =                               </text><text x="28" y="562.39" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.63s" dur="0.5s" fill="freeze"/>                              .       .. .  ...:.  .-                               </text><text x="28" y="578.33" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.66s" dur="0.5s" fill="freeze"/>                              =              ..     -                               </text><text x="28" y="594.28" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.69s" dur="0.5s" fill="freeze"/>                              =        ....         :                               </text><text x="28" y="610.22" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.72s" dur="0.5s" fill="freeze"/>                             ==          ...  .     .-                              </text><text x="28" y="626.17" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.76s" dur="0.5s" fill="freeze"/>                          :== =          .          # =.                            </text><text x="28" y="642.11" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.79s" dur="0.5s" fill="freeze"/>                     ..::-.   .                      # --.                          </text><text x="28" y="658.06" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.82s" dur="0.5s" fill="freeze"/>                            :@                       =    ......                    </text><text x="28" y="674.00" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.85s" dur="0.5s" fill="freeze"/>                            * -.                     =*                             </text><text x="28" y="689.94" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.88s" dur="0.5s" fill="freeze"/>                            %   :.                 .. -                             </text><text x="28" y="705.89" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.92s" dur="0.5s" fill="freeze"/>                            #     ..                  +                             </text><text x="28" y="721.83" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.5s" fill="freeze"/>                           .=               .         +                             </text><text x="28" y="737.78" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.98s" dur="0.5s" fill="freeze"/>                           +                          =                             </text><text x="28" y="753.72" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.01s" dur="0.5s" fill="freeze"/>                           *                          =                             </text><text x="28" y="769.67" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.04s" dur="0.5s" fill="freeze"/>                           *                          =                             </text><text x="28" y="785.61" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.08s" dur="0.5s" fill="freeze"/>                           +                          -                             </text><text x="28" y="801.56" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.11s" dur="0.5s" fill="freeze"/>                           =                          =                             </text><text x="28" y="817.50" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="7.78" fill="url(#asciiGrad-dark)" xml:space="preserve" textLength="392" lengthAdjust="spacingAndGlyphs" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.14s" dur="0.5s" fill="freeze"/>                           =                          =                             </text></g>
+    </g>
+    <clipPath id="asciiClip-dark">
+      <rect x="28" y="92.22222222222223" width="392" height="733.0555555555555"/>
+    </clipPath>
+    <rect x="28" y="52.22222222222223" width="392" height="22"
+          fill="url(#scanGrad-dark)" clip-path="url(#asciiClip-dark)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 773.0555555555555; 0 0" dur="4.5s" repeatCount="indefinite" calcMode="linear"/>
+    </rect>
+    <line x1="28" y1="550" x2="420" y2="550" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+    <text x="28" y="574" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#22D3EE" opacity="0">guest@gaurav<animate attributeName="opacity" from="0" to="1" begin="2.67s" dur="0.4s" fill="freeze"/></text>
+    <text x="120" y="574" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#94A3B8" opacity="0">:~$<animate attributeName="opacity" from="0" to="1" begin="2.77s" dur="0.4s" fill="freeze"/></text>
+    <text x="150" y="574" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#F8FAFC" opacity="0">render(portrait)<animate attributeName="opacity" from="0" to="1" begin="2.87s" dur="0.4s" fill="freeze"/></text>
+    <rect x="266" y="562" width="7" height="15" fill="#22D3EE" opacity="0">
+      <animate attributeName="opacity" values="0.9;0.9;0;0;0.9" keyTimes="0;0.001;0.5;0.999;1" dur="1s" begin="2.97s" repeatCount="indefinite"/>
+    </rect>
+    
+    <rect x="448" y="0" width="732" height="610" fill="#0F172A" opacity="0.34"/>
+    <rect x="448" y="0" width="732" height="120" fill="url(#panelHi-dark)"/>
+    
+    <circle cx="496" cy="40" r="5" fill="#FF5F56" opacity="0.85"/>
+    <circle cx="516" cy="40" r="5" fill="#FFBD2E" opacity="0.85"/>
+    <circle cx="536" cy="40" r="5" fill="#27C93F" opacity="0.85"/>
+    <text x="556" y="44" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="12" fill="#94A3B8">gaurav@dev-shell</text>
+    <line x1="488" y1="62" x2="1140" y2="62" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+    
+    <text x="488" y="104" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#F8FAFC" opacity="0">Hi <tspan>&#128075;</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
+    </text>
+    <text x="488" y="152" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="42" font-weight="700"
+          fill="url(#accentGrad-dark)" filter="url(#softGlow-dark)" opacity="0">I&#39;m Gaurav
+      <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.6s" fill="freeze"/>
+    </text><text x="488" y="192" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="19" fill="#94A3B8" opacity="0">&gt;<animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.4s" fill="freeze"/></text>
+        <clipPath id="roledarkClip0">
+          <rect x="510.0" y="173.0" width="0" height="28.5">
+            <animate attributeName="width" keyTimes="0.00000;0.00000;0.06400;0.15600;0.18800;0.20000;1.00000" values="0.0;0.0;262.2;262.2;0.0;0.0;0.0"
+                     dur="24.00s" repeatCount="indefinite" calcMode="linear"/>
+          </rect>
+        </clipPath>
+
+        <text x="510.0" y="192.0" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="19.0"
+              fill="#22D3EE" clip-path="url(#roledarkClip0)" xml:space="preserve">Data Science Enthusiast</text>
+
+        <clipPath id="roledarkClip1">
+          <rect x="510.0" y="173.0" width="0" height="28.5">
+            <animate attributeName="width" keyTimes="0.00000;0.20000;0.26400;0.35600;0.38800;0.40000;1.00000" values="0.0;0.0;285.0;285.0;0.0;0.0;0.0"
+                     dur="24.00s" repeatCount="indefinite" calcMode="linear"/>
+          </rect>
+        </clipPath>
+
+        <text x="510.0" y="192.0" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="19.0"
+              fill="#22D3EE" clip-path="url(#roledarkClip1)" xml:space="preserve">Machine Learning Engineer</text>
+
+        <clipPath id="roledarkClip2">
+          <rect x="510.0" y="173.0" width="0" height="28.5">
+            <animate attributeName="width" keyTimes="0.00000;0.40000;0.46400;0.55600;0.58800;0.60000;1.00000" values="0.0;0.0;296.4;296.4;0.0;0.0;0.0"
+                     dur="24.00s" repeatCount="indefinite" calcMode="linear"/>
+          </rect>
+        </clipPath>
+
+        <text x="510.0" y="192.0" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="19.0"
+              fill="#22D3EE" clip-path="url(#roledarkClip2)" xml:space="preserve">Deep Learning Practitioner</text>
+
+        <clipPath id="roledarkClip3">
+          <rect x="510.0" y="173.0" width="0" height="28.5">
+            <animate attributeName="width" keyTimes="0.00000;0.60000;0.66400;0.75600;0.78800;0.80000;1.00000" values="0.0;0.0;228.0;228.0;0.0;0.0;0.0"
+                     dur="24.00s" repeatCount="indefinite" calcMode="linear"/>
+          </rect>
+        </clipPath>
+
+        <text x="510.0" y="192.0" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="19.0"
+              fill="#22D3EE" clip-path="url(#roledarkClip3)" xml:space="preserve">NLP &amp; GenAI Explorer</text>
+
+        <clipPath id="roledarkClip4">
+          <rect x="510.0" y="173.0" width="0" height="28.5">
+            <animate attributeName="width" keyTimes="0.00000;0.80000;0.86400;0.95600;0.98800;1.00000;1.00000" values="0.0;0.0;228.0;228.0;0.0;0.0;0.0"
+                     dur="24.00s" repeatCount="indefinite" calcMode="linear"/>
+          </rect>
+        </clipPath>
+
+        <text x="510.0" y="192.0" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="19.0"
+              fill="#22D3EE" clip-path="url(#roledarkClip4)" xml:space="preserve">Full-Stack Developer</text>
+        <rect x="510.0" y="176.4" width="9.5" height="18.1"
+              fill="#22D3EE" opacity="0.9">
+          <animate attributeName="x" keyTimes="0.00000;0.00000;0.06400;0.15600;0.18800;0.20000;0.20000;0.26400;0.35600;0.38800;0.40000;0.40000;0.46400;0.55600;0.58800;0.60000;0.60000;0.66400;0.75600;0.78800;0.80000;0.80000;0.86400;0.95600;0.98800;1.00000" values="510.0;510.0;772.2;772.2;510.0;510.0;510.0;795.0;795.0;510.0;510.0;510.0;806.4;806.4;510.0;510.0;510.0;738.0;738.0;510.0;510.0;510.0;738.0;738.0;510.0;510.0"
+                   dur="24.00s" repeatCount="indefinite" calcMode="linear"/>
+          <animate attributeName="opacity" values="0.9;0.15;0.9" dur="0.9s" repeatCount="indefinite"/>
+        </rect>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.00s" dur="0.45s" fill="freeze"/>
+      <text x="488" y="232" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15">📍</text>
+      <text x="514" y="232" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#94A3B8">Location:</text>
+      <text x="514" y="250" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" fill="#F8FAFC">Bhubaneswar, Odisha, India</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.28s" dur="0.45s" fill="freeze"/>
+      <text x="488" y="272" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15">🎓</text>
+      <text x="514" y="272" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#94A3B8">Education:</text>
+      <text x="514" y="290" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" fill="#F8FAFC">B.Tech CSE, KIIT (2023 - Present)</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.56s" dur="0.45s" fill="freeze"/>
+      <text x="488" y="312" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15">🧠</text>
+      <text x="514" y="312" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#94A3B8">Current Focus:</text>
+      <text x="514" y="330" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" fill="#F8FAFC">Generative AI - NLP - Deep Learning</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.84s" dur="0.45s" fill="freeze"/>
+      <text x="488" y="352" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15">🔗</text>
+      <text x="514" y="352" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#94A3B8">Portfolio:</text>
+      <text x="514" y="370" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" fill="#F8FAFC">gauravpy-ctrl.vercel.app</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.12s" dur="0.45s" fill="freeze"/>
+      <text x="488" y="392" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15">✉</text>
+      <text x="514" y="392" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#94A3B8">Email:</text>
+      <text x="514" y="410" font-family="'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" fill="#F8FAFC">2505gaurav.asf@gmail.com</text>
+    </g>
+    <text x="488" y="440" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8" opacity="0">SKILLS
+      <animate attributeName="opacity" from="0" to="1" begin="3.6s" dur="0.4s" fill="freeze"/>
+    </text>
+    <g id="pill-dark-458-0" transform="translate(488.0,458)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="3.80s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="3.80s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="75.2" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="4.80s" repeatCount="indefinite"/>
+          </rect>
+          <text x="37.6" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Python</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-0.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-0.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-458-1" transform="translate(573.2,458)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="3.89s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="3.89s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="105.4" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="4.89s" repeatCount="indefinite"/>
+          </rect>
+          <text x="52.7" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">TensorFlow</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-1.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-1.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-458-2" transform="translate(688.6,458)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="3.98s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="3.98s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="128.0" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="4.98s" repeatCount="indefinite"/>
+          </rect>
+          <text x="64.0" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Deep Learning</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-2.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-2.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-458-3" transform="translate(826.7,458)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.07s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.07s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="52.6" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.07s" repeatCount="indefinite"/>
+          </rect>
+          <text x="26.3" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">NLP</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-3.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-3.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-458-4" transform="translate(889.3,458)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.16s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.16s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="120.5" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.16s" repeatCount="indefinite"/>
+          </rect>
+          <text x="60.2" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Scikit-learn</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-4.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-4.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-458-5" transform="translate(1019.8,458)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.25s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.25s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="75.2" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.25s" repeatCount="indefinite"/>
+          </rect>
+          <text x="37.6" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">OpenCV</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-5.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-458-5.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-496-0" transform="translate(488.0,496)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.50s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.50s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="97.9" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.50s" repeatCount="indefinite"/>
+          </rect>
+          <text x="48.9" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Streamlit</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-0.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-0.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-496-1" transform="translate(595.9,496)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.59s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.59s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="82.8" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.59s" repeatCount="indefinite"/>
+          </rect>
+          <text x="41.4" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Next.js</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-1.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-1.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-496-2" transform="translate(688.6,496)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.68s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.68s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="105.4" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.68s" repeatCount="indefinite"/>
+          </rect>
+          <text x="52.7" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">TypeScript</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-2.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-2.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-496-3" transform="translate(804.0,496)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.77s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.77s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="120.5" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.77s" repeatCount="indefinite"/>
+          </rect>
+          <text x="60.2" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Tailwind CSS</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-3.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-3.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-496-4" transform="translate(934.5,496)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.86s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.86s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="52.6" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.86s" repeatCount="indefinite"/>
+          </rect>
+          <text x="26.3" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">SQL</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-4.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-4.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g>
+    <g id="pill-dark-496-5" transform="translate(997.1,496)">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="4.95s" dur="0.35s" fill="freeze"/>
+        <g transform="scale(0.8)">
+          <animateTransform attributeName="transform" type="scale" from="0.8" to="1"
+            begin="4.95s" dur="0.35s" fill="freeze"/>
+          <rect x="0" y="0" width="52.6" height="28" rx="14.0"
+                fill="#131E33" fill-opacity="0.85"
+                stroke="rgba(124,58,237,0.35)" stroke-width="1" filter="url(#pillGlow-dark)">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" begin="5.95s" repeatCount="indefinite"/>
+          </rect>
+          <text x="26.3" y="18.5" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+                font-weight="500" fill="#F8FAFC">Git</text>
+        </g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-5.mouseover" dur="0.2s" from="0 0" to="0 -3" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        begin="pill-dark-496-5.mouseout" dur="0.2s" from="0 -3" to="0 0" fill="freeze"/>
+    </g><line x1="488" y1="536" x2="1140" y2="536" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+    <a xlink:href="https://github.com/Gauravpy-ctrl" target="_blank">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="5.10s" dur="0.4s" fill="freeze"/>
+        <circle cx="507" cy="571" r="19" fill="none" stroke="url(#accentGrad-dark)"
+                stroke-width="1.4" filter="url(#softGlow-dark)">
+          <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="3.4s" begin="0.00s" repeatCount="indefinite"/>
+        </circle>
+        <text x="507" y="576" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+              font-weight="600" fill="#F8FAFC">GH</text>
+      </g>
+    </a>
+    <a xlink:href="https://www.linkedin.com/in/gaurav-6bba27285" target="_blank">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="5.22s" dur="0.4s" fill="freeze"/>
+        <circle cx="567" cy="571" r="19" fill="none" stroke="url(#accentGrad-dark)"
+                stroke-width="1.4" filter="url(#softGlow-dark)">
+          <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="3.4s" begin="0.40s" repeatCount="indefinite"/>
+        </circle>
+        <text x="567" y="576" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+              font-weight="600" fill="#F8FAFC">in</text>
+      </g>
+    </a>
+    <a xlink:href="https://gauravpy-ctrl.vercel.app/" target="_blank">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="5.34s" dur="0.4s" fill="freeze"/>
+        <circle cx="627" cy="571" r="19" fill="none" stroke="url(#accentGrad-dark)"
+                stroke-width="1.4" filter="url(#softGlow-dark)">
+          <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="3.4s" begin="0.80s" repeatCount="indefinite"/>
+        </circle>
+        <text x="627" y="576" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+              font-weight="600" fill="#F8FAFC">WWW</text>
+      </g>
+    </a>
+    <a xlink:href="mailto:2505gaurav.asf@gmail.com" target="_blank">
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="5.46s" dur="0.4s" fill="freeze"/>
+        <circle cx="687" cy="571" r="19" fill="none" stroke="url(#accentGrad-dark)"
+                stroke-width="1.4" filter="url(#softGlow-dark)">
+          <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="3.4s" begin="1.20s" repeatCount="indefinite"/>
+        </circle>
+        <text x="687" y="576" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5"
+              font-weight="600" fill="#F8FAFC">@</text>
+      </g>
+    </a>
+  </g>
+  
+    <rect x="1" y="1" width="1178" height="608" rx="27" ry="27"
+          fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1.4"/>
+    <rect x="1" y="1" width="1178" height="608" rx="27" ry="27"
+          fill="none" stroke="url(#borderShimmer-dark)" stroke-width="1.6"/>
+</svg>
